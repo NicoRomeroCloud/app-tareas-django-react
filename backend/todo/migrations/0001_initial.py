@@ -2,6 +2,16 @@
 
 from django.db import migrations, models
 
+# Crea una nueva tabla en la base de datos llamada "Todo"
+
+# En general aquí se hace la migración inicial de la base de datos,
+# con código generado por django,
+# que crea la estructura de la tabla "Todo" con las columnas
+# mencionadas. Las migraciones en Django se utilizan para
+# mantener la consistencia entre el modelo de datos de la
+# aplicación y la estructura de la base de datos a lo largo del
+# tiempo.
+
 
 class Migration(migrations.Migration):
 
